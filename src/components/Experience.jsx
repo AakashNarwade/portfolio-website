@@ -71,7 +71,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen pt-24 md:pt-0 "
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
@@ -79,7 +79,16 @@ const Experience = () => {
             Experience
           </p>
           <p className="py-6">
-            These are the technologies I&apos;ve worked with
+            I have total{" "}
+            <span className="text-cyan-500 text-xl md:text-xl font-bold">
+              {" "}
+              1.3 years
+            </span>{" "}
+            of experience as a{" "}
+            <span className="text-cyan-500 text-xl md:text-xl font-bold">
+              Frontend Developer
+            </span>{" "}
+            and here are the technologies I&apos;ve worked with
           </p>
         </div>
 
